@@ -19,6 +19,8 @@ async def heh(ctx, count_heh = 5):
     await ctx.send("he" * count_heh)
 
 
+aaa
+
 @bot.command()
 async def toplama(ctx, sayi1: int, sayi2:int ):
     await ctx.send(sayi1 + sayi2)
